@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Display = () => {
-    const [disData, setdisData] =useState(false);
+    const [disData, setdisData] = useState(false);
 
     const handleBtn2=()=>{
         console.log('data', handleBtn2);
